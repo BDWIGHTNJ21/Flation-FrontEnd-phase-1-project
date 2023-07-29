@@ -11,4 +11,4 @@ Ops will input user login and deployed equipment id in the input fileds. Data is
 
 At the end of each shift, Ops will scan the returned equimpment in the "Returned Equipment field"
  
- All items that havent been returned will renmain marked as "Deployed"
+ All items that haven't been returned will renmain marked as "Deployed" until scanned as returned
