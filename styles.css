@@ -3,8 +3,25 @@
 h1{
     color: darkblue;
     font-family: Cambria;
+    text-align: center auto;
 
  }
+
+ /*.container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 20px;
+
+ }
+ input,select {
+    margin-button: 10px; center
+
+ }*/
 
 body {
     background-color: blueviolet; 
