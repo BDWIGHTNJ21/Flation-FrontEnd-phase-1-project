@@ -6,8 +6,12 @@
     <title>Phase 1 Project</title>
     <!-- CSS RESET :SINDRESORHUS/MODERN-NORMALIZE-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css"
-    <script defer src="main.js"></script>  <!-- make sure it load after the dom filly loaded -->       
+    
+    <!--Custom css-->
+        <link rel="stylesheet" href="styles.css"/>
+
+   <!--Custom Js-->
+        <script defer src="main.js"></script>  <!-- make sure it load after the dom fully loaded -->       
 </head>
    
 <body>
@@ -57,9 +61,9 @@
     <section class="input-form">
         <h2> Assign Equipment 1</h3>
         <form action="POST" id="equipment-form">
-            <label for="Assigned user">Assigned user:</label>
-           <input type="text" name="Assigned user" id="Assigned user" placeholder="Assigned user " required>
-           <input type="text" asset#=""id="" placeholder="equipment Id #" required>
+            <label for="assigned-user">assigned user:</label>
+           <input type="text" name="assigned-user" id="assigned-user" placeholder="Assigned user " required>
+           <input type="text" asset="asset-Id"id="asset-Id" placeholder="equipment Id #" required>
            <input type="submit" value="Submit">
         </form>
                     <!--new input equipment section test ends-->
