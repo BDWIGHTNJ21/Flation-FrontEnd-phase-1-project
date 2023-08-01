@@ -1,12 +1,21 @@
 console.log("main.js connected");
-// activate evenlistener using forcus and forcus on events within a form
 
-const handleFormInputFocus = () => {
-  console.log("focus occurred");
-};
+// activate evenlistener using forcus and forcus on events within a form
 const assignedUserInput = document.body.querySelector("#assigned-user");
 
+const getEquipmentCategories = async() =>{
+    
+}
+const handleFormInputFocus = () => {
+  console.log("focus occurred"); 
+  
+  getEquipmentCategories ();
+};
+
+
 assignedUserInput.addEventListener("focus", handleFormInputFocus);
+
+
 
 // create an empty array to store input data
 var data = [];
@@ -20,5 +29,5 @@ function submitForm() {
 
   console.log("Input 1:" + input1);
   console.log("Input 2:" + input2);
-  console.log("Input 3:" + input3);
+  console.log("Input 3:" + input3)
 }
