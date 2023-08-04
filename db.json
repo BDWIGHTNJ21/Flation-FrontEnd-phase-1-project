@@ -1,0 +1,50 @@
+{
+    "Equipment":[
+        {
+            "id":"001001hp",
+            "assigned User":"Matan",
+            "dvice type":"Hip printer",
+            "staus": "Deployed"
+
+        },
+
+        {
+            "id":"001002r",
+            "assigned User":"Dzdaf",
+            "dvice type":"Radio",
+            "staus": "Returned/Availble"
+
+        },
+        {
+            "id":"001003hp",
+            "assigned User":"KarenBoss",
+            "dvice type":"HIp printer",
+            "staus": "Returned/Available"
+
+
+        },
+
+{
+            "id":"001004r",
+            "assigned User":"MJBliege",
+            "dvice type":"Radio",
+            "staus": "Deployed"
+
+
+        },
+        {
+            "id":"001005hp",
+            "assigned User":"Meth",
+            "dvice type":"hip printer",
+            "staus": "Returned/Available"
+
+
+        }
+
+
+
+
+
+    ]
+
+}                
