@@ -3,10 +3,11 @@ console.log ('connected')
 var data =[];
 
 //Declare input data
-function submitForm() {
+function SubmitForm() {
 
-    var input1=document.getElementById("input1").value;
-    var input2=document.getElementById("input2").value;
+ 
+    var input=document.getElementById("Assigned_user").value;
+    var input2=document.getElementById("Equipment_id").value;
     
     
     
@@ -15,6 +16,7 @@ function submitForm() {
     console.log("Input 1:" + input1);
     console.log("Input 2:" + input2);
     console.log("Input 3:" + input3);
+    console.log(Assigned_user.value)
 
 
 

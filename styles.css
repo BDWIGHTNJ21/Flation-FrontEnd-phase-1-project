@@ -2,7 +2,7 @@
  
 h1{
     color: darkblue;
-    font-family: Cambria;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center auto;
 
  }
@@ -19,12 +19,12 @@ h1{
 
  }*/
  input,select {
-    margin-button: 10px; center
+    margin-bottom: 10px; 
 
  }
 
 body {
-    background-color:  lightblue;
+    background-color:  lightblue
 
    
 }
