@@ -1,33 +1,26 @@
 console.log("main.js connected");
 
 // activate evenlistener using forcus and forcus on events within a form
-const assignedUserInput = document.body.querySelector("#assigned-user");
+const searchTermsInput = document.body.querySelector("#search-terms");
 
-const getEquipmentCategories = async() =>{
-    
+const getMealCategories = async() =>{
+  const mealCategoriesApiURL = "https://www.themealdb.com/api/json/v1/1/categories.php"
+
+  try{
+    const response = await fetch(mealCategoriesApiURL)
+    const data =response.json()
+   console.log(`data:`, data); 
+  } catch (error){
+  console.log(error)
+  alert('Something went wrong,try again later')
 }
-const handleFormInputFocus = () => {
+
+  
+}
+const handleFormInputFocus = async () => {
   console.log("focus occurred"); 
   
-  getEquipmentCategories ();
+  await getMealCategories ();
 };
 
-
-assignedUserInput.addEventListener("focus", handleFormInputFocus);
-
-
-
-// create an empty array to store input data
-var data = [];
-
-//Declare input data
-function submitForm() {
-  var input1 = document.getElementById("input1").value;
-  var input2 = document.getElementById("input2").value;
-
-  var input3 = document.getElementById("input3").value;
-
-  console.log("Input 1:" + input1);
-  console.log("Input 2:" + input2);
-  console.log("Input 3:" + input3)
-}
+searchTermsInput.addEventListener("focus", handleFormInputFocus);

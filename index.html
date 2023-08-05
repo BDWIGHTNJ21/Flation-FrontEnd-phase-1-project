@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!--Custom css-->
-        <link rel="stylesheet" href="styles.css"/>
+        '<link rel="stylesheet" href="styles.css"/>
 
    <!--Custom Js-->
         <script defer src="main.js"></script>  <!-- make sure it load after the dom fully loaded -->       
@@ -19,23 +19,23 @@
 
     <header id="top">
          <header2>
-            <h1>EWR8</h1>
-            <h1> OPs Equipment Control Management System (OECMS)</h1>
+            <h1></h1>
+            <h1> Meals</h1>
             
         </header2>
     <nav>
         <!--List clickable sections -->
         <ul>
             <li>
-                <a href="#section1"> Assigning Equipment</a>
+                <a href="#section1"> Section 1</a>
             </li>
             
             <li>
-                <a href="#section2"> Returned Equipment</a>
+                <a href="#section2"> Section 2</a>
             </li>
             
             <li>
-                <a href="#section3"> List of equipment not returned</a>
+                <a href="#section3">section 3</a>
             </li>
         </ul>
     </nav>   
@@ -45,76 +45,61 @@
   <!--Main Begins-->
    <main>
     <br />
+ <section class="search-form">
+    <h2>Form Section</h2>
+    <form action="GET" ID="meal-form">
+       <label for="search-terms">Search term:</label>" 
+       <input type="text" name ="search-terms" id="search-terms"
+       placeholder="input search term" required />
+    <br/>
 
 
     <!-- drop down template-->
-    <label for="category-filter">Category:</label>
-      <select name="category" id="category-filter" required>
-        <option value="option 1"> option 1</option>
-        <option value="option 2"> option 2</option>
-
+    <label for="category-filter">Category filter:</label> <!--create label outside -->
+      <select name="category-filter" id="category-filter" required>
+        <option value="category 1"> option 1</option>
+        <option value="category 2"> option 2</option>
+        <option value="category 3"> option 3</option>
       </select>
+      <br/>
 
     <!-- drop down template ends-->
 
-        <!--new input equipment section  mark status as deployed test starts  -->
-    <section class="input-form">
-        <h2> Assign Equipment 1</h3>
-        <form action="POST" id="equipment-form">
 
 
-            <label for="assigned-user">assigned user:</label>
-           <input type="text" name="assigned-user" id="assigned-user" placeholder="Assigned user " required>
-           <input type="text" asset="asset-Id"id="asset-Id" placeholder="equipment Id #" required>
-           <input type="submit" value="Submit">
-        </form>
-                    <!--new input equipment section test ends-->
-        <br />
+    <input type="submit" value="Search" />
+    </form>
+    </section>
 
-         <!--new  Retrun section search equipment Id mark status to Availble-->
-     <section class="returned-form">
-                    <h2> Returned equipment</h2>
-                    <form action="POST" id="return-form">
+        <!--Create 3 setions-->  
 
-                        <input type="text" asset#="" id="Returned" placeholder="Returned equipment" required>
-                    </form>
-                  </section>  
-                    <!--new section search equipment Id change status to Availble-->
+       
+        <section id="section1">
+        <h2> section 1</h2>
+        <ing src="#" alt="some image" />
+        <p>
+            onece upon a time an old man lived in the sea
+        </p>
 
 
-         <!--new section search equipment Id change status to Availble-->
-                 
-        </h2> All Equipment</h2>
-        <section class="input form">
-                    <form action="GET" id="name"></form>
-                  </section>  
-                    <!--new section search equipment Id change status to Availble-->
+        <section id="section1">
+        <h2> section 2</h2>
+        <ing src="#" alt="some image" />
+        <p>
+            onece upon a time an old man lived in the sea
+        </p>
 
-
+        <section id="section1">
+            <h2> section 3</h2>
+            <ing src="#" alt="some image" />
+            <p>
+                onece upon a time an old man lived in the sea
+            </p>
     
-    <!--Create sections and add input container in each section-->
-     <div class="container">
-        
-        <section id="section 1">
-            <h2>Assign Equipment</h2>
-            <h4> Input user login and deployed equipment tag</h4>
-                 <input type="text" id="input1" placeholder="User login">
-                 <input type="text" id="input2" placeholder="Equipment tag">
-                 <button onclick="submitForm()">Submit</button>
-        </section>
-
-                <!--Section 2  Returned Equipment section-->
-        <section id="section 2">
-            <h2>Returned Equipment</h2>
-             <input type="text" id="input3" placeholder="Returned equipment ID">
-        </section>
-
-                <!-- Section 3 Equipment not returned section-->
-        <section id="section 3">
-            <h2>Equipment not returned</h2>
-        </section>
-
-    </div>
+    
+       
+       <!-- Create sections and add input container in each section-->
+    
 
 </main>
 <!--Main Ends-->
