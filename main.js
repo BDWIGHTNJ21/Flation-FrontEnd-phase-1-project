@@ -25,7 +25,7 @@ const renderMealCategories = (mealCategoriesArray) => {
   console.table(mealCategoriesArray);
 
             
-               // Things that completed
+  
   // find and select a ul with meal categories ID dom element to appened data
   const mealCategoriesList=document.body.querySelector('#meal-categories-list')
   mealCategoriesArray.forEach(mealCategory => {
@@ -36,18 +36,19 @@ const renderMealCategories = (mealCategoriesArray) => {
  // apprehend child li.card to selected DOM element
  mealCategoriesList.appendChild(mealCategoryListItem);
   //display the category name, image and description
- //image
+ 
  //----------------------Meal Categories-------------
- // create an ing element start customiz
+ //------IMG----------------IMAG CATEGORIES RENDERS FROM API TO DOM(WEBPAGE)
+ // create an Meal Categories iMg elements START ADDING IMG
 const mealCategoryImg=document.createElement('img');
 //set img src to category thrumbnail url
 mealCategoryImg.src=mealCategory?.strCategoryThumb
 //give it a mobile friendly max width of like 300px
 mealCategoryImg.with=300
-//apprendChild the image to our card  custtomize img end
+//apprendChild the image to our card  LAST IMAGE CUSTOMLIZATION
 mealCategoryListItem.appendChild(mealCategoryImg);
 
-// name
+// ----NAME-------------------display catagories names-----------
 //create an he 4 element
 const mealCategoryName= document.createElement('h4');
 //set h4 element textContent to be meal category name
@@ -55,7 +56,7 @@ mealCategoryListItem.appendChild(mealCategoryName);
 //apprendChild h4 to the card
 mealCategoryListItem.appendChild(mealCategoryName);
 
-//description
+//DESCRIPTION----------------- OF ELEMENT
 //create an paragraph elemment
 const mealCategoryDescription = document.createElement('p');
 // set p element textContent to be meal category description 
