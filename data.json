@@ -1,0 +1,133 @@
+      
+     [
+      {
+        "brand": "Cadillac",
+        "model": "Escalade",
+        "type": "luxury"
+       
+      },
+      {
+        "brand": "Lincoln",
+        "model": "Navigator",
+        "type": "luxury"
+     
+
+      },
+      {
+        "brand": "Tesla",
+        "model": "Model S",
+        "type": "luxury"
+  
+      },
+         
+      {
+        "brand": "Chevrolet",
+        "model": "Corvette",
+        "type": "Sport"
+     
+      },
+      {
+        "brand": "Ford",
+        "model": "Mustang",
+        "type": "Sport"
+     
+      },
+      {
+        "brand": "Dodge",
+        "model": "Challenger",
+        "type": "Sport"
+     
+      },
+   
+      {
+        "brand": "Tesla",
+        "model": "Model 3",
+        "type": "electric"
+     
+      },
+      {
+        "brand": "Ford",
+        "model": "Mustang Mach-E",
+        "type": "electric"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Bolt EV",
+        "type": "electric"
+     
+      },
+    
+      {
+        "brand": "Ford",
+        "model": "F-150",
+        "type": "Semi Truck"
+     
+        
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Silverado",
+        "type": "Semi Truck"
+     
+      },
+      {
+        "brand": "Ram",
+        "model": "1500",
+        "type": "Semi Truck"
+     
+      },
+   
+      {
+        "brand": "Chevrolet",
+        "model": "Malibu",
+        "type": "Mass Market"
+      },
+      {
+        "brand": "Ford",
+        "model": "Fusion",
+        "type": "Mass Market"
+    
+      },
+      {
+        "brand": "Dodge",
+        "model": "Charger",
+        "type": "Mass Market"
+     
+      },
+      {
+        "brand": "Jeep",
+        "model": "Charger",
+        "type": "Mass Market"
+     
+     },
+     {
+        "brand": "GMC",
+        "model": "Charger",
+        "type": "Mass Market"
+     
+     },
+     {
+        "brand": "Buick",
+        "model": "Charger",
+        "type": "Mass Market"
+     
+     },
+     {
+        "brand": "RAM",
+        "model": "Charger",
+        "type": "Mass Market"
+    
+     }
+    ]
+
+
+
+
+
+    
+
+        
+
+      
+    
+  

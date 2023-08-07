@@ -1,132 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    
+    <!---->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phase 1 Project</title>
-    <!-- CSS RESET :SINDRESORHUS/MODERN-NORMALIZE-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!--Custom css-->
-        '<link rel="stylesheet" href="styles.css"/>
+    <img src="https://logos-world.net/wp-content/uploads/2021/04/American-Car-Brands.png" alt="America Cars logo" 
+    center: width="400"
+    height="200"
+     /> 
+    <!---->
 
-   <!--Custom Js-->
-        <script defer src="main.js"></script>  <!-- make sure it load after the dom fully loaded -->       
-</head>
-   
-<body>
-  <!--Header begins-->
+    <title>American Cars</title>
 
-    <header id="top">
-         <header2>
-            <h1></h1>
-            <h1> Meals</h1>
-            
-        </header2>
-    <nav>
-        <!--List clickable sections -->
-        <ul>
-            <li>
-                <a href="#section1"> Section 1</a>
-            </li>
-            
-            <li>
-                <a href="#section2"> Section 2</a>
-            </li>
-            
-            <li>
-                <a href="#section3">section 3</a>
-            </li>
-        </ul>
-    </nav>   
-    </header>
-  <!--Header begins-->
   
-  <!--Main Begins-->
-   <main>
-    <br />
-    <!---serach form begins-->
- <section class="search-form">
-    </section>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ <!--Custom Js-->
+ <script defer src="main.js"></script>  <!-- make sure it load after the dom fully loaded -->       
+<!--Header begins-->
+</head>
+    <h1>American Cars</h1>
+</header2 id=top>
+<nav>
+    <!--List clickable sections -->
+    <ul>
+        <li>
+            <a href="#section1"> Luxury Brands</a>
+        </li>
+        
+        <li>
+            <a href="#section2"> Sport Brands</a>
+        </li>
+        
+        <li>
+            <a href="#section3">Mass Market Brands </a>
+        </li>
+        
+        <li>
+            <a href="#section4">Electric Brands</a>
+        </li>
+    </ul>
+</nav>   
 
-    <h2>Form Section</h2>
-    <form action="GET" ID="meal-form">
-       <label for="search-terms">Search term:</label>" 
-       <input type="text" name ="search-terms" id="search-terms"
-       placeholder="input search term" required />
-    <br/>
+</head>
+<body>
+    <!--Main Begins-->
 
-
-    <!-- drop down template-->
-    <label for="category-filter">Category filter:</label> <!--create label outside -->
-      <select name="category-filter" id="category-filter" required>
-        <option value="category 1"> BEEF 1</option>
-        <option value="category 2"> CHICKEN 2</option>
-        <option value="category 3"> PORK 3</option>
-      </select>
-      <br/> 
-      
-                    <!-- meal categories list sections ends-->
-
-
-      <section class="mealCategories-section">
-        <h2>Meal Categories</h2>
-        <ul id="meal-categories-list">
-            
-        </ul>
-      </section>
-                         <!-- meal categories list sections ends-->
-
-         <!-- drop down template ends-->
-
-
-    <!--submit buttom begins-->
-
-    <input type="submit" value="Search" />
-    </form>
-    </section>
-                 <!--submit button end-->
+<!---NEW create search form and button-->
+<input type="text" id="searchInput" placeholder="Search by category">
+  <button onclick="carsData()">Search</button>
+  <div id="results"></div>
+<!--------search form ends-->
 
 
-    
-    <!-- Create 3 setions-->  
+
+  <!---form labels-->
+ 
+  <!----HTML table ---------->
+  <table id="carsTable">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Model</th>
+        <th>Type</th>
+          </tr>
+    </thead>
+    <tbody id="carsData">
+    </tbody>
+  </table>
+   
+  <!-- Create 3 setions-->  
 
 
        
-        <section id="section1">
-        <h2> section 1</h2>
-        <img src="#" alt="some image" />
+   <section id="section1">
+    <h2> Luxury Cars</h2>
+    <img src="https://i.ibb.co/sbcftWv/luxury.png" alt="American Luxury Car Brands" />
+    <p>
+        Cadillac has been one of America's premier luxury carmakers for more than a century. It has set many standards for the industry and created many firsts in the luxury car world. It is no exaggeration to say that Cadillac's history represents the history of luxury cars in America.
+
+Lincoln is the luxury vehicle division of the American car company Ford. Marketed among the top luxury brands in the United States, Lincoln has competed closely against Cadillac since its inception.
+    </p>
+
+
+    <section id="section2">
+    <h2> Sport Cars</h2>
+    <img src="https://i.ibb.co/YtNmjnq/Sport.png" border="0" alt="American Sport Cars Brands" />
+    <p>
+        The Ford Mustang is now the world's best selling sports car brand, according to an IHS Markit analysis of Ford data. Ford Mustang is the world's most popular sporty 2-door for the third year in a row.
+    </p>
+
+    <section id="section3">
+        <h2> Mass Maket Cars</h2>
+        <img src="https://i.ibb.co/dfMd28M/mass-Market.png"  alt="American Mass Market Brands" />
         <p>
-            onece upon a time an old man lived in the sea
+            Ford and Chevrolet have been business rivals for over a century, and their rivalry is one of the most well-known in the automobile industry (homegrown brands). Each brand has its own loyal supporters who are passionate about their favorite brand and will go to great lengths to promote it.
         </p>
 
 
-        <section id="section1">
-        <h2> section 2</h2>
-        <img src="#" alt="some image" />
+    <section id="section 4">
+        <h2> Electric Cars</h2>
+        <img src="https://i.ibb.co/XpvZbxL/Electric.png" border="0" alt="American Electric car Brands" />
         <p>
-            onece upon a time an old man lived in the sea
+            Tesla is far and away the most popular electric car brand in the world. In 2022, the Tesla Model Y overtook its sibling, the Model 3(Model 3 was the world's best-selling electric car from 2018 to 2021), to take the top spot with 771,300 units sold. This marks the first time the Model Y has taken the
         </p>
+    &nbsp
+   <!-- Create sections and add input container in each section-->
+  
+  <script src="main.js"></script>
 
-        <section id="section1">
-            <h2> section 3</h2>
-            <img src="#" alt="some image" />
-            <p>
-                onece upon a time an old man lived in the sea
-            </p>
-    
-    
-       
-       <!-- Create sections and add input container in each section-->
-    
-
-</main>
 <!--Main Ends-->
 
 
 <!--Footer Begins-->
 <footer>
     <p> Copyright   Bernice Dwight 2023</p>
+    <p> source:</p><a href="https://www.carlogos.org/car-brands/chrysler-logo.html">Information source  &nbsp</a>
+    &nbsp
     <a href="#top">Back to top </a>
  </footer>
  <!--Footer Ends-->
