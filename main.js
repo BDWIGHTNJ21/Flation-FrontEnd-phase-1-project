@@ -55,7 +55,7 @@ function addCars() {
       model: model,
       type: type,
     };
-    
+    //============= add input data to json file Removed option ==================//
     fetch('data.json')
       .then(response => response.json())
       .then(data => {
@@ -75,7 +75,7 @@ function addCars() {
     
     displayCars();
   }
-  
+  //==============Belongs to the returns that was removed ====================================//
   function returnCars() {
     const returnInput = document.getElementById('return').value;
     
@@ -96,8 +96,9 @@ function addCars() {
       })
       .catch(error => console.error('Error:', error));
     
-    displayCars();
+    displayCars();   
   }
+  //=========== add data to table and display results ==============//
   
   function displayCars() {
     fetch('data.json')
